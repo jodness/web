@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,inital-scale=1" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<style>
+			ul.nav-tabs{
+				width: 140px;
+				margin-top: 20px;
+				border-radius: 4px;
+				border: 1px solid #ddd;
+				box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+			}
+			ul.nav-tabs li{
+				margin: 0;
+				border-top: 1px solid #ddd;
+			}
+			ul.nav-tabs li:first-child{
+				border-top: none;
+			}
+			ul.nav-tabs li a{
+				margin: 0;
+				padding: 8px 16px;
+				border-radius: 0;
+			}
+			ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+				color: #fff;
+				background: #0088cc;
+				border: 1px solid #0088cc;
+			}
+			ul.nav-tabs li:first-child a{
+				border-radius: 4px 4px 0 0;
+			}
+			ul.nav-tabs li:last-child a{
+				border-radius: 0 0 4px 4px;
+			}
+			ul.nav-tabs.affix{
+				top: 30px; 
+			}
+		</style>
+
+	</head>
+	<body data-spy="scroll" data-target="#myScrollspy">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-6 col-xs-12">
+					<nav>
+						<ul class="nav nav-pills">
+							<li><a href="#">1</a></li>
+							<li class="active"><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="jumbotron text-center">
+			<h1>123</h1>
+		</div>
+
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						Login in
+					</div>
+					<div class="panel-body">
+						<div class="form-group">
+							<label>账号</label>
+							<input class="form-control" />
+							<label>密码</label>
+							<input class="form-control" type="password" />
+						</div>
+						<div class="btn btn-default">登录</div>
+					</div>
+				</div>
+
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						news
+					</div>
+					<div class="panel-body">
+						<ul>
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-8 col-sm-6">
+				<div class="row">
+					
+					<div class="col-xs-9">
+						<h2 id="section-1">1</h2>
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+						<h2 id="section-2">2</h2>
+						<br />
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+						<h2 id="section-3">3</h2>
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+						<h2 id="section-4">4</h2>
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+						<h2 id="section-5">5</h2>
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+						1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />1<br />
+					</div>
+					<div class="col-xs-3" id="myScrollspy" style="padding-top: 60px;" >
+						<ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+							<li class="active"><a href="#section-1">1</a></li>
+							<li><a href="#section-2">2</a></li>
+							<li><a href="#section-3">3</a></li>
+							<li><a href="#section-4">4</a></li>
+							<li><a href="#section-5">5</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+</html>
